@@ -1,0 +1,84 @@
+@media (max-width: 480px){
+
+  body{
+    background-image: url("./sources/mobile_final.jpg");
+    background-repeat: no-repeat, repeat;
+  }
+  .search {
+    width: 160%;
+    margin: 5rem 0rem 0rem 0rem;
+  }
+  
+  .searchBar {
+    width: 150%;
+    padding: 1rem;
+    height: 4rem;
+    border-radius: 15px 0 0 15px;
+    font-size: 1.5rem;
+  }
+  
+  .searchButton {
+    width: 5rem;
+    height: 4rem;
+    border: 5px solid #782730;
+    background: #782730;
+    border-radius: 0 15px 15px 0;
+    font-size: 1rem;
+  }
+
+  .container {
+    height: 25rem;
+    width: 35rem;
+    padding-top: 12px;
+    margin: 5rem 0rem 0rem 1.3rem;
+    opacity: 0.5;
+  }
+  .container #location{
+    font-size: 2rem;
+  }
+
+  .box-container{
+    margin-top: 3rem;
+  }
+  .box-container .col1 img{
+    height: 10rem;
+    width: 10rem;
+  }
+  .box-container .col1{
+    width: 100%;
+  }
+  .box-container .col2{
+    width: 100%;
+  }
+  .box-container .col3{
+    width: 100%;
+    font-size: 1.1rem;
+  }
+  .box-container #temperature{
+    font-size: 10rem;
+  }
+  .box-container #summary{
+    font-size: 2rem;
+  }
+  .logo .rightLogo{
+    float: right;
+    font-size: 0.8rem;
+    margin: 1rem -13rem 0rem 0rem;
+  }
+  .dtw{
+    text-align: center;
+    margin: 0rem 0rem 0rem 7rem;
+    color: #2d1325;
+  }
+  .dtw #time{
+    font-size: 9rem;
+  }
+  .dtw #date{
+    font-size: 1.1rem;
+    margin: 0rem 0rem 0rem 6.6rem;
+  }
+  .dtw #week{
+    font-size: 1.1rem;
+    margin: 0rem 0rem 0rem 6.6rem;
+  }
+}
