@@ -25,7 +25,7 @@ const apiKey = "b4acd9fb9a65e10bfa74530906905140";
 
 btn.addEventListener("click", function city(){
   let city1 = document.getElementById("searchBar").value;
-  const mode = `http://api.openweathermap.org/data/2.5/weather?q=${city1}&appid=${apiKey}`;
+  const mode = `https://api.openweathermap.org/data/2.5/weather?q=${city1}&appid=${apiKey}`;
   fetch(mode).then(res => {
     return res.json();
   })
@@ -53,7 +53,7 @@ window.addEventListener("load" , () =>{
     navigator.geolocation.getCurrentPosition(position => {
       let longi = position.coords.longitude;
       let lati = position.coords.latitude;
-      const mode = `http://api.openweathermap.org/data/2.5/weather?lat=${lati}&lon=${longi}&appid=${apiKey}`;
+      const mode = `https://api.openweathermap.org/data/2.5/weather?lat=${lati}&lon=${longi}&appid=${apiKey}`;
       fetch(mode).then(res => {
             return res.json();
           })
