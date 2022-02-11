@@ -45,7 +45,7 @@ btn.addEventListener("click", function city(){
     week.innerHTML = `${weeks[today.getDay()]}`
   })
   .catch(
-    err => alert('You entered wrong city name')
+    err => alert('You have entered an invalid city. Please enter a valid city name.')
   )
 })
 window.addEventListener("load" , () =>{
